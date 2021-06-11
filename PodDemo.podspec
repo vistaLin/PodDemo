@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "PodDemo"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of PodDemo."
+  spec.summary      = "A short description of PodDemo. 实例pod"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-  Pod制作示范demo
+  Pod制作示范demo,可以添加一些基础库在里面
                    DESC
 
   spec.homepage     = "https://github.com/vistaLin"
@@ -91,8 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "PodDemo/PodDemo/Foundation "
-  spec.exclude_files = "Classes/Exclude"
+  spec.source_files  = "PodDemo/PodDemo/Foundation/*"
 
   # spec.public_header_files = "Classes/**/*.h"
 
