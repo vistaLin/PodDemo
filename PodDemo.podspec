@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-  Pod制作示范demo,可以添加一些基础库在里面
+  Pod制作示范demo,可以添加一些基础库在里面.用于项目搭建使用
                    DESC
 
   spec.homepage     = "https://github.com/vistaLin"
